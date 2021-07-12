@@ -7,7 +7,7 @@ public class Game {
 	private static Random rand = new Random();
 
 	public static Hand play(Hand choice) { // Hand is enum, choice is input variable
-		int rng = rand.nextInt(100); // random number generation with 99 options
+		int rng = rand.nextInt(99); // random number generation with 99 options
 
 		Hand result = null; // link random number generation to RPS hands
 		if (rng < 33) {
